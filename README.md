@@ -182,3 +182,7 @@ POST请求，所以对此不必过于担心。还有就是基于优化考虑将a
 *https://www.cnblogs.com/bpdwn/p/3479421.html*
 
 <https://github.com/Ivan1ee>
+
+# 欢迎扫描下方二维码和笔者交流
+
+![](media/wechat.png)
